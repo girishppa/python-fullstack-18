@@ -1,5 +1,5 @@
 
-#write a program addition of two number from user
+#write a program the addition of two number from user
 
 num1 =int(input("Enter first number: "))
 num2 = int(input("Enter second number: "))
