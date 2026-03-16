@@ -8,3 +8,8 @@ for num in input_list:
     if num > largest:
         largest = num
 print("Largest number is : ",largest)
+
+
+numbers = [1,5,66,8,78,19,22,36]
+largest_num = max(numbers)
+print("Largest number is :",largest_num)
