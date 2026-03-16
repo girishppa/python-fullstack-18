@@ -68,3 +68,50 @@
 # 1. count(value) ----> counts total occurrence ---->a=(10,20,30,40) --->a.count(20)--->1
 # 2. index() ----> return index of first occurrence --->a.index(30)---->2
 # 3. a[0]=100 ---> is not allowed in tuple 
+
+
+-----Set--------
+
+#Set :  set is denoted in {} carly brses.
+#    set is the collection of unordered items.
+# 1. sets are mutable.
+# 2. duplicates are not allowed(due to hashing)
+# 3. inseration order is not preserved.
+# 4. indexing and slicing is not allowed
+
+# Set Methods:
+# 1. add()        ---> add one element.  --->a.add(5)
+# 2. update()     --->add multiple element or colletion of list.  ---->a.update([1,2],{4})
+# 3. remove()      --->Delete given list of element if element is not present they gave error --->a.remove(5)
+# 4. discard()    ---> Delete given list of element if element is not present they gave error   ---->a.discard(4)
+# 5. pop()        --->Remove random value
+# 6. clear()      --->Delete all list
+# 7. union()      --->Combination of two list in one set.----> a.union(b)
+# 8. intersection()  --->return common element in two list. --->a.intersection(b)-->common element
+# 9. difference()    --->Elements present in the first set but missing in the second set --->a.difference(b)-->
+# 10.symmetric_diffenrcee()   --->the elements that are non common in both sets.
+# 11. copy()   ------>copy set of list.
+# 12.  isdisjoint()  ----->check common elements are present or not --->Return True or False--->no-->True
+# 13.  issubset()  ---->Is one set completely inside the other set? --->Return True or False--->Present-->True
+# 14.  issuperset()  ----> Is this set a superset of the other set? --->Return True or False--->Present-->True
+
+
+
+-----Dictionary------
+#Dictionary : dictionary denotes Key: value , symbol {}
+#  We store data in key and value format.
+# 1.Duplicates key are not allowed
+# 2.dictioners are mutable
+# 3. from python 3.6 inseration order is guraneteed
+
+# Dictionary Methods :
+# 1. keys()     --->display only keys
+# 2. values()   --->display only values
+# 3. items()    --->display key and value pair
+# 4. pop(key)   --->remove key and display value
+# 5. popitems()  ---->delete last insert pair
+# 6. update()  ----> add new key and value
+# 7. get() ---->return only value
+# 8. setdefault()  _--->if value is not present in key they show none or zero
+# 9. fromkeys(keys,values) ---> it create dictionary  using list of key and value given them same value
+# 10. clear()  ---> delete dictionary
